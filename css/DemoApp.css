@@ -1,0 +1,145 @@
+body {
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Arial", "sans-serif";
+
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+button {
+    width: 100px;
+    background: orange;
+    border: 1px solid darkred;
+    margin-right: 10px;
+
+    box-shadow: 1px 1px 3px #333;
+}
+
+table {
+    width: 100%;
+}
+table td {
+    padding: 5px;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+}
+
+/* Header */
+#header {
+    display: flex;
+    background: red;
+    padding: 30px 20px;
+}
+
+#header .logo h1 {
+    margin: 3px 0;
+}
+
+#header .logo .subtitle {
+    font-size: 0.8rem;
+}
+
+#header .actions {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+#header .actions button {
+}
+
+#content {
+    display: flex;
+    margin-top: 20px;
+}
+/* Left Section */
+
+.left-section {
+    flex: 1;
+    margin-right: 20px;
+}
+.left-section .header {
+    display: flex;
+    height: 30px;
+}
+
+.left-section .header button {
+    height: 25px;
+    /* Added cursor is pointer by interviewer*/
+    cursor:pointer;
+}
+.left-section .header > .actions {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+table th {
+    background: #ccc;
+    padding: 5px;
+}
+.totals td {
+    border-top: 3px solid #ccc;
+}
+
+.legend {
+    width: 30px;
+    height: 16px;
+}
+
+/* Right Section */
+.right-section {
+    width: 300px;
+    background: #ccc;
+}
+.right-section .chart {
+    height: 300px;
+}
+
+.right-section .help-label {
+    padding: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.header {
+    width: 800px;
+    height: 100px;
+    text-align: center;
+    background-color: red;
+}
+
+.footer {
+    background-color: #BDBDBD;
+    text-align: center;
+}
+
+.leftMenu {
+    height: 500px;
+    background-color: #D8D8D8;
+    width: 150px;
+}
+
+.mainContent {
+    height: 700px;
+    background-color: #E6E6E6;
+    width: 800px;}
+
+a{
+    display:block;
+    padding:5px
+}
+
+.searchresults {
+    height: 400px;
+    overflow-y: auto;
+}
+.AccountEntered {
+    font: 15px arial, sans-serif;
+    color:orangered;
+}
